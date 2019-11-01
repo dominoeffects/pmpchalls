@@ -113,7 +113,7 @@ nav>.col-md-12{
 
 /* Mission Statement */
 .bg_img{
-    background-image: url(./images/water.jpg);
+    background-image: url(../images/water.jpg);
     background-attachment: fixed;
     padding: 3rem;
 }
