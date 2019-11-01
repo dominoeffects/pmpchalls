@@ -1,0 +1,159 @@
+/* Global */
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_color{
+    color: olive;
+}
+
+.main_color_bg{
+    background-color: olive;
+}
+
+.secondary_color{
+    color: white;
+}
+
+.third_color{
+    color: darkolivegreen;
+}
+
+.fourth_color_bg{
+    background-color: antiquewhite;
+}
+
+.text_align_center{
+    text-align: center;
+}
+
+.display_flex{
+    display: flex;
+}
+
+.align_items_center{
+    align-items: center;
+}
+
+.display_flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_direction_column{
+    flex-direction: column;
+}
+
+.flex_direction_row{
+    flex-direction: row;
+}
+
+.bg_img_position_no_repeat{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.font_size{
+    font-size: 2rem;
+}
+
+.margin_top_bottom{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.margin_top_bottom_small{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Nav */
+nav>.col-md-12{
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.logo{
+    width: 5%;
+}
+
+.nav_links_li{
+    list-style: none;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.hover:hover{
+    color: darkolivegreen;
+}
+
+.nav_link{
+    font-weight: 600;
+}
+
+.nav_link_line{
+    font-weight: 700;
+}
+
+/* Hero */
+.hero{
+    background-image: url(
+        'https://images.unsplash.com/photo-1534792198913-8855a6b48eb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80'
+    );
+    background-size: cover;
+    height: 40vh;
+}
+
+/* Mission Statement */
+.bg_img{
+    background-image: url(/images/water.jpg);
+    background-attachment: fixed;
+    padding: 3rem;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+/* Featured */
+
+
+.text_box{
+    width: 400px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.feature_sec{
+    padding: 0px;
+}
+
+article .col-sm-12{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Footer */
+.footer_sec{
+    justify-content: space-around;
+    height: 10rem;
+    padding: 0px;
+}
+
+.footer_links{
+    font-weight: 900;
+}
+
+.footer_text_box{
+    padding: 1rem;
+}
